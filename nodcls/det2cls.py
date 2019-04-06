@@ -192,7 +192,6 @@ from torch.backends import cudnn
 from torch.utils.data import DataLoader
 from torch import optim
 from torch.autograd import Variable
-from models import *
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -202,7 +201,7 @@ import torchvision
 import transforms as transforms
 import os
 import argparse
-from models import *
+from models.dpn3d import *
 from utils import progress_bar
 from torch.autograd import Variable
 import numpy as np

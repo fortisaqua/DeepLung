@@ -1,0 +1,464 @@
+using gpu 0
+['/opt/LUNA16/subset0/', '/opt/LUNA16/subset1/', '/opt/LUNA16/subset2/', '/opt/LUNA16/subset3/', '/opt/LUNA16/subset4/', '/opt/LUNA16/subset5/', '/opt/LUNA16/subset6/', '/opt/LUNA16/subset7/', '/opt/LUNA16/subset8/']
+/opt/LUNA16/subset0/
+/opt/LUNA16/subset1/
+/opt/LUNA16/subset2/
+/opt/LUNA16/subset3/
+/opt/LUNA16/subset4/
+/opt/LUNA16/subset5/
+/opt/LUNA16/subset6/
+/opt/LUNA16/subset7/
+/opt/LUNA16/subset8/
+800
+800
+88
+2019-01-06 09:45:28
+Epoch 101 (lr 0.00050) 
+Train:      tpr 98.53, tnr 98.64, total pos 1767, total neg 10096, time 239.77
+loss 0.0731, classify loss 0.0560, regress loss 0.0035, 0.0033, 0.0044, 0.0059
+
+Validation: tpr 97.79, tnr 99.99189721, total pos 181, total neg 7417201, time 6.62
+loss 0.0640, classify loss 0.0503, regress loss 0.0026, 0.0023, 0.0031, 0.0057
+
+
+2019-01-06 09:49:29
+Epoch 102 (lr 0.00050) 
+Train:      tpr 98.36, tnr 98.93, total pos 1767, total neg 10096, time 233.70
+loss 0.0694, classify loss 0.0521, regress loss 0.0037, 0.0035, 0.0045, 0.0056
+
+Validation: tpr 97.24, tnr 99.99072203, total pos 181, total neg 7415415, time 4.48
+loss 0.0647, classify loss 0.0505, regress loss 0.0027, 0.0033, 0.0023, 0.0059
+
+
+2019-01-06 09:53:28
+Epoch 103 (lr 0.00050) 
+Train:      tpr 97.96, tnr 98.87, total pos 1767, total neg 10096, time 234.34
+loss 0.0740, classify loss 0.0572, regress loss 0.0035, 0.0035, 0.0039, 0.0059
+
+Validation: tpr 97.24, tnr 99.99339331, total pos 181, total neg 7416725, time 5.17
+loss 0.0653, classify loss 0.0513, regress loss 0.0025, 0.0024, 0.0029, 0.0062
+
+
+2019-01-06 09:57:27
+Epoch 104 (lr 0.00050) 
+Train:      tpr 98.13, tnr 98.93, total pos 1767, total neg 10096, time 234.68
+loss 0.0697, classify loss 0.0522, regress loss 0.0039, 0.0035, 0.0041, 0.0060
+
+Validation: tpr 98.90, tnr 99.99368946, total pos 181, total neg 7416163, time 4.29
+loss 0.0452, classify loss 0.0322, regress loss 0.0022, 0.0026, 0.0025, 0.0057
+
+
+2019-01-06 10:01:26
+Epoch 105 (lr 0.00050) 
+Train:      tpr 97.85, tnr 98.86, total pos 1767, total neg 10096, time 234.22
+loss 0.0756, classify loss 0.0586, regress loss 0.0036, 0.0035, 0.0041, 0.0058
+
+Validation: tpr 98.34, tnr 99.99120858, total pos 181, total neg 7416325, time 4.09
+loss 0.0531, classify loss 0.0399, regress loss 0.0025, 0.0024, 0.0028, 0.0055
+
+
+2019-01-06 10:05:25
+Epoch 106 (lr 0.00050) 
+Train:      tpr 98.75, tnr 98.84, total pos 1767, total neg 10096, time 234.74
+loss 0.0701, classify loss 0.0527, regress loss 0.0038, 0.0034, 0.0042, 0.0059
+
+Validation: tpr 97.79, tnr 99.99378489, total pos 181, total neg 7417408, time 4.49
+loss 0.0552, classify loss 0.0418, regress loss 0.0025, 0.0027, 0.0025, 0.0057
+
+
+2019-01-06 10:09:24
+Epoch 107 (lr 0.00050) 
+Train:      tpr 98.36, tnr 98.99, total pos 1767, total neg 10096, time 234.69
+loss 0.0692, classify loss 0.0518, regress loss 0.0039, 0.0035, 0.0041, 0.0060
+
+Validation: tpr 97.24, tnr 99.99293440, total pos 181, total neg 7416217, time 4.65
+loss 0.0623, classify loss 0.0480, regress loss 0.0028, 0.0028, 0.0031, 0.0056
+
+
+2019-01-06 10:13:23
+Epoch 108 (lr 0.00050) 
+Train:      tpr 97.79, tnr 99.07, total pos 1767, total neg 10096, time 233.87
+loss 0.0762, classify loss 0.0589, regress loss 0.0036, 0.0034, 0.0041, 0.0062
+
+Validation: tpr 97.79, tnr 99.99290751, total pos 181, total neg 7416292, time 4.38
+loss 0.0607, classify loss 0.0465, regress loss 0.0024, 0.0031, 0.0032, 0.0054
+
+
+2019-01-06 10:17:22
+Epoch 109 (lr 0.00050) 
+Train:      tpr 98.02, tnr 98.81, total pos 1767, total neg 10096, time 234.82
+loss 0.0746, classify loss 0.0573, regress loss 0.0038, 0.0034, 0.0043, 0.0057
+
+Validation: tpr 97.24, tnr 99.98887745, total pos 181, total neg 7417363, time 4.38
+loss 0.0675, classify loss 0.0529, regress loss 0.0024, 0.0027, 0.0036, 0.0059
+
+
+2019-01-06 10:21:20
+Epoch 110 (lr 0.00050) 
+Train:      tpr 98.47, tnr 98.62, total pos 1767, total neg 10096, time 234.09
+loss 0.0709, classify loss 0.0535, regress loss 0.0037, 0.0035, 0.0042, 0.0060
+
+Validation: tpr 96.69, tnr 99.99211290, total pos 181, total neg 7417177, time 4.71
+loss 0.0674, classify loss 0.0537, regress loss 0.0030, 0.0029, 0.0023, 0.0056
+
+
+2019-01-06 10:25:19
+Epoch 111 (lr 0.00050) 
+Train:      tpr 98.25, tnr 98.83, total pos 1767, total neg 10096, time 234.40
+loss 0.0766, classify loss 0.0588, regress loss 0.0039, 0.0037, 0.0044, 0.0058
+
+Validation: tpr 97.79, tnr 99.99312317, total pos 181, total neg 7416205, time 4.82
+loss 0.0611, classify loss 0.0474, regress loss 0.0030, 0.0024, 0.0024, 0.0059
+
+
+2019-01-06 10:29:18
+Epoch 112 (lr 0.00050) 
+Train:      tpr 98.36, tnr 98.91, total pos 1767, total neg 10096, time 234.14
+loss 0.0687, classify loss 0.0521, regress loss 0.0033, 0.0032, 0.0041, 0.0060
+
+Validation: tpr 96.13, tnr 99.99312400, total pos 181, total neg 7417101, time 5.28
+loss 0.0673, classify loss 0.0548, regress loss 0.0026, 0.0023, 0.0021, 0.0055
+
+
+2019-01-06 10:33:17
+Epoch 113 (lr 0.00050) 
+Train:      tpr 98.36, tnr 99.04, total pos 1767, total neg 10096, time 233.82
+loss 0.0686, classify loss 0.0515, regress loss 0.0036, 0.0035, 0.0042, 0.0058
+
+Validation: tpr 98.34, tnr 99.99215274, total pos 181, total neg 7416602, time 4.19
+loss 0.0496, classify loss 0.0354, regress loss 0.0027, 0.0028, 0.0035, 0.0052
+
+
+2019-01-06 10:37:16
+Epoch 114 (lr 0.00050) 
+Train:      tpr 98.30, tnr 99.01, total pos 1767, total neg 10096, time 234.42
+loss 0.0711, classify loss 0.0535, regress loss 0.0038, 0.0036, 0.0043, 0.0059
+
+Validation: tpr 96.69, tnr 99.98950913, total pos 181, total neg 7415974, time 6.78
+loss 0.0675, classify loss 0.0545, regress loss 0.0024, 0.0020, 0.0031, 0.0056
+
+
+2019-01-06 10:41:17
+Epoch 115 (lr 0.00050) 
+Train:      tpr 98.30, tnr 98.76, total pos 1767, total neg 10096, time 233.75
+loss 0.0749, classify loss 0.0580, regress loss 0.0038, 0.0035, 0.0039, 0.0056
+
+Validation: tpr 98.34, tnr 99.99324535, total pos 181, total neg 7417108, time 5.26
+loss 0.0455, classify loss 0.0317, regress loss 0.0023, 0.0029, 0.0031, 0.0054
+
+
+2019-01-06 10:45:17
+Epoch 116 (lr 0.00050) 
+Train:      tpr 98.42, tnr 98.93, total pos 1767, total neg 10096, time 234.80
+loss 0.0745, classify loss 0.0565, regress loss 0.0038, 0.0037, 0.0043, 0.0061
+
+Validation: tpr 98.34, tnr 99.99215231, total pos 181, total neg 7416196, time 4.43
+loss 0.0473, classify loss 0.0339, regress loss 0.0024, 0.0024, 0.0033, 0.0052
+
+
+2019-01-06 10:49:15
+Epoch 117 (lr 0.00050) 
+Train:      tpr 98.25, tnr 98.87, total pos 1767, total neg 10096, time 234.40
+loss 0.0724, classify loss 0.0552, regress loss 0.0039, 0.0034, 0.0040, 0.0058
+
+Validation: tpr 97.24, tnr 99.99200398, total pos 181, total neg 7416191, time 4.48
+loss 0.0656, classify loss 0.0514, regress loss 0.0029, 0.0024, 0.0031, 0.0057
+
+
+2019-01-06 10:53:14
+Epoch 118 (lr 0.00050) 
+Train:      tpr 98.47, tnr 98.99, total pos 1767, total neg 10096, time 233.84
+loss 0.0686, classify loss 0.0515, regress loss 0.0037, 0.0034, 0.0043, 0.0058
+
+Validation: tpr 97.79, tnr 99.99250298, total pos 181, total neg 7416276, time 4.14
+loss 0.0570, classify loss 0.0433, regress loss 0.0028, 0.0024, 0.0030, 0.0054
+
+
+2019-01-06 10:57:12
+Epoch 119 (lr 0.00050) 
+Train:      tpr 98.25, tnr 98.81, total pos 1767, total neg 10096, time 233.92
+loss 0.0724, classify loss 0.0553, regress loss 0.0037, 0.0035, 0.0040, 0.0059
+
+Validation: tpr 97.24, tnr 99.99348828, total pos 181, total neg 7417398, time 4.15
+loss 0.0668, classify loss 0.0528, regress loss 0.0030, 0.0026, 0.0022, 0.0062
+
+
+2019-01-06 11:01:11
+Epoch 120 (lr 0.00050) 
+Train:      tpr 98.70, tnr 99.08, total pos 1767, total neg 10096, time 235.16
+loss 0.0658, classify loss 0.0493, regress loss 0.0035, 0.0034, 0.0041, 0.0055
+
+Validation: tpr 98.34, tnr 99.99228794, total pos 181, total neg 7416956, time 4.72
+loss 0.0514, classify loss 0.0382, regress loss 0.0025, 0.0026, 0.0026, 0.0055
+
+
+2019-01-06 11:05:14
+Epoch 121 (lr 0.00010) 
+Train:      tpr 98.42, tnr 98.92, total pos 1767, total neg 10096, time 237.76
+loss 0.0673, classify loss 0.0504, regress loss 0.0038, 0.0034, 0.0041, 0.0056
+
+Validation: tpr 98.34, tnr 99.99174885, total pos 181, total neg 7417151, time 4.83
+loss 0.0615, classify loss 0.0481, regress loss 0.0028, 0.0024, 0.0027, 0.0054
+
+
+2019-01-06 11:09:14
+Epoch 122 (lr 0.00010) 
+Train:      tpr 98.13, tnr 98.73, total pos 1767, total neg 10096, time 235.79
+loss 0.0732, classify loss 0.0559, regress loss 0.0036, 0.0035, 0.0042, 0.0059
+
+Validation: tpr 97.79, tnr 99.99168089, total pos 181, total neg 7416660, time 5.33
+loss 0.0587, classify loss 0.0438, regress loss 0.0027, 0.0031, 0.0031, 0.0061
+
+
+2019-01-06 11:13:17
+Epoch 123 (lr 0.00010) 
+Train:      tpr 98.25, tnr 98.83, total pos 1767, total neg 10096, time 237.20
+loss 0.0755, classify loss 0.0583, regress loss 0.0038, 0.0035, 0.0042, 0.0058
+
+Validation: tpr 98.90, tnr 99.99146458, total pos 181, total neg 7416158, time 7.09
+loss 0.0506, classify loss 0.0373, regress loss 0.0028, 0.0025, 0.0022, 0.0057
+
+
+2019-01-06 11:17:20
+Epoch 124 (lr 0.00010) 
+Train:      tpr 98.13, tnr 99.04, total pos 1767, total neg 10096, time 235.63
+loss 0.0727, classify loss 0.0559, regress loss 0.0035, 0.0034, 0.0040, 0.0059
+
+Validation: tpr 96.69, tnr 99.99178777, total pos 181, total neg 7415768, time 4.81
+loss 0.0572, classify loss 0.0443, regress loss 0.0023, 0.0025, 0.0027, 0.0054
+
+
+2019-01-06 11:21:20
+Epoch 125 (lr 0.00010) 
+Train:      tpr 98.25, tnr 98.57, total pos 1767, total neg 10096, time 235.48
+loss 0.0742, classify loss 0.0571, regress loss 0.0037, 0.0036, 0.0040, 0.0058
+
+Validation: tpr 98.34, tnr 99.99298888, total pos 181, total neg 7416785, time 7.27
+loss 0.0611, classify loss 0.0479, regress loss 0.0025, 0.0026, 0.0024, 0.0057
+
+
+2019-01-06 11:25:23
+Epoch 126 (lr 0.00010) 
+Train:      tpr 98.36, tnr 98.89, total pos 1767, total neg 10096, time 235.97
+loss 0.0677, classify loss 0.0505, regress loss 0.0034, 0.0037, 0.0042, 0.0059
+
+Validation: tpr 98.34, tnr 99.99178763, total pos 181, total neg 7415646, time 5.37
+loss 0.0457, classify loss 0.0322, regress loss 0.0025, 0.0029, 0.0024, 0.0057
+
+
+2019-01-06 11:29:25
+Epoch 127 (lr 0.00010) 
+Train:      tpr 98.25, tnr 98.88, total pos 1767, total neg 10096, time 236.17
+loss 0.0711, classify loss 0.0544, regress loss 0.0035, 0.0034, 0.0041, 0.0057
+
+Validation: tpr 97.24, tnr 99.99172216, total pos 181, total neg 7417390, time 4.72
+loss 0.0652, classify loss 0.0524, regress loss 0.0024, 0.0022, 0.0025, 0.0056
+
+
+2019-01-06 11:33:27
+Epoch 128 (lr 0.00010) 
+Train:      tpr 98.53, tnr 99.00, total pos 1767, total neg 10096, time 237.33
+loss 0.0694, classify loss 0.0514, regress loss 0.0039, 0.0036, 0.0045, 0.0058
+
+Validation: tpr 97.79, tnr 99.99159912, total pos 181, total neg 7415891, time 4.66
+loss 0.0566, classify loss 0.0427, regress loss 0.0026, 0.0028, 0.0028, 0.0057
+
+
+2019-01-06 11:37:28
+Epoch 129 (lr 0.00010) 
+Train:      tpr 98.53, tnr 98.80, total pos 1767, total neg 10096, time 236.49
+loss 0.0665, classify loss 0.0499, regress loss 0.0036, 0.0034, 0.0039, 0.0057
+
+Validation: tpr 97.79, tnr 99.99070980, total pos 181, total neg 7416414, time 4.63
+loss 0.0630, classify loss 0.0483, regress loss 0.0032, 0.0031, 0.0031, 0.0054
+
+
+2019-01-06 11:41:28
+Epoch 130 (lr 0.00010) 
+Train:      tpr 98.53, tnr 98.90, total pos 1767, total neg 10096, time 235.52
+loss 0.0650, classify loss 0.0483, regress loss 0.0036, 0.0034, 0.0041, 0.0056
+
+Validation: tpr 97.79, tnr 99.99445865, total pos 181, total neg 7416966, time 4.75
+loss 0.0612, classify loss 0.0482, regress loss 0.0022, 0.0022, 0.0030, 0.0056
+
+
+2019-01-06 11:45:27
+Epoch 131 (lr 0.00010) 
+Train:      tpr 98.25, tnr 98.82, total pos 1767, total neg 10096, time 234.31
+loss 0.0708, classify loss 0.0537, regress loss 0.0038, 0.0036, 0.0041, 0.0056
+
+Validation: tpr 97.79, tnr 99.99238128, total pos 181, total neg 7415948, time 4.65
+loss 0.0598, classify loss 0.0466, regress loss 0.0025, 0.0024, 0.0027, 0.0056
+
+
+2019-01-06 11:49:26
+Epoch 132 (lr 0.00010) 
+Train:      tpr 98.47, tnr 99.10, total pos 1767, total neg 10096, time 234.21
+loss 0.0602, classify loss 0.0436, regress loss 0.0033, 0.0036, 0.0040, 0.0057
+
+Validation: tpr 96.13, tnr 99.99221970, total pos 181, total neg 7416168, time 5.90
+loss 0.0712, classify loss 0.0577, regress loss 0.0028, 0.0025, 0.0027, 0.0055
+
+
+2019-01-06 11:53:26
+Epoch 133 (lr 0.00010) 
+Train:      tpr 98.25, tnr 98.82, total pos 1767, total neg 10096, time 234.31
+loss 0.0702, classify loss 0.0530, regress loss 0.0039, 0.0035, 0.0040, 0.0058
+
+Validation: tpr 98.34, tnr 99.99371634, total pos 181, total neg 7416056, time 4.62
+loss 0.0588, classify loss 0.0451, regress loss 0.0025, 0.0024, 0.0026, 0.0061
+
+
+2019-01-06 11:57:25
+Epoch 134 (lr 0.00010) 
+Train:      tpr 98.59, tnr 99.18, total pos 1767, total neg 10096, time 234.01
+loss 0.0632, classify loss 0.0465, regress loss 0.0036, 0.0034, 0.0041, 0.0056
+
+Validation: tpr 98.90, tnr 99.99284056, total pos 181, total neg 7416785, time 4.92
+loss 0.0454, classify loss 0.0312, regress loss 0.0027, 0.0028, 0.0033, 0.0055
+
+
+2019-01-06 12:01:24
+Epoch 135 (lr 0.00010) 
+Train:      tpr 98.13, tnr 98.99, total pos 1767, total neg 10096, time 234.26
+loss 0.0685, classify loss 0.0519, regress loss 0.0036, 0.0033, 0.0039, 0.0058
+
+Validation: tpr 97.24, tnr 99.99088562, total pos 181, total neg 7416848, time 4.70
+loss 0.0579, classify loss 0.0442, regress loss 0.0027, 0.0028, 0.0027, 0.0055
+
+
+2019-01-06 12:05:23
+Epoch 136 (lr 0.00010) 
+Train:      tpr 98.36, tnr 98.84, total pos 1767, total neg 10096, time 234.52
+loss 0.0690, classify loss 0.0523, regress loss 0.0039, 0.0034, 0.0039, 0.0055
+
+Validation: tpr 97.24, tnr 99.98949545, total pos 181, total neg 7415834, time 5.28
+loss 0.0709, classify loss 0.0577, regress loss 0.0025, 0.0022, 0.0027, 0.0059
+
+
+2019-01-06 12:09:23
+Epoch 137 (lr 0.00010) 
+Train:      tpr 98.47, tnr 98.96, total pos 1767, total neg 10096, time 234.16
+loss 0.0691, classify loss 0.0518, regress loss 0.0038, 0.0036, 0.0041, 0.0059
+
+Validation: tpr 97.24, tnr 99.99343386, total pos 181, total neg 7416835, time 4.66
+loss 0.0725, classify loss 0.0579, regress loss 0.0028, 0.0029, 0.0031, 0.0057
+
+
+2019-01-06 12:13:22
+Epoch 138 (lr 0.00010) 
+Train:      tpr 98.19, tnr 98.85, total pos 1767, total neg 10096, time 234.24
+loss 0.0703, classify loss 0.0534, regress loss 0.0037, 0.0035, 0.0039, 0.0058
+
+Validation: tpr 97.24, tnr 99.99044202, total pos 181, total neg 7417887, time 4.62
+loss 0.0591, classify loss 0.0453, regress loss 0.0031, 0.0026, 0.0027, 0.0055
+
+
+2019-01-06 12:17:21
+Epoch 139 (lr 0.00010) 
+Train:      tpr 98.47, tnr 98.90, total pos 1767, total neg 10096, time 234.52
+loss 0.0681, classify loss 0.0516, regress loss 0.0033, 0.0035, 0.0041, 0.0057
+
+Validation: tpr 97.79, tnr 99.99182939, total pos 181, total neg 7416826, time 4.87
+loss 0.0607, classify loss 0.0470, regress loss 0.0024, 0.0026, 0.0032, 0.0055
+
+
+2019-01-06 12:21:20
+Epoch 140 (lr 0.00010) 
+Train:      tpr 98.47, tnr 98.64, total pos 1767, total neg 10096, time 234.78
+loss 0.0745, classify loss 0.0575, regress loss 0.0036, 0.0034, 0.0043, 0.0057
+
+Validation: tpr 97.24, tnr 99.99165451, total pos 181, total neg 7417181, time 4.53
+loss 0.0660, classify loss 0.0530, regress loss 0.0025, 0.0025, 0.0027, 0.0053
+
+
+2019-01-06 12:25:19
+Epoch 141 (lr 0.00010) 
+Train:      tpr 98.30, tnr 98.92, total pos 1767, total neg 10096, time 234.49
+loss 0.0687, classify loss 0.0523, regress loss 0.0035, 0.0033, 0.0042, 0.0055
+
+Validation: tpr 98.34, tnr 99.99220709, total pos 181, total neg 7416996, time 4.93
+loss 0.0501, classify loss 0.0373, regress loss 0.0027, 0.0024, 0.0021, 0.0056
+
+
+2019-01-06 12:29:20
+Epoch 142 (lr 0.00010) 
+Train:      tpr 98.47, tnr 99.00, total pos 1767, total neg 10096, time 235.26
+loss 0.0652, classify loss 0.0481, regress loss 0.0038, 0.0036, 0.0040, 0.0057
+
+Validation: tpr 97.79, tnr 99.99208472, total pos 181, total neg 7416034, time 5.08
+loss 0.0507, classify loss 0.0374, regress loss 0.0023, 0.0028, 0.0031, 0.0051
+
+
+2019-01-06 12:33:19
+Epoch 143 (lr 0.00010) 
+Train:      tpr 98.47, tnr 98.82, total pos 1767, total neg 10096, time 234.41
+loss 0.0689, classify loss 0.0518, regress loss 0.0037, 0.0035, 0.0041, 0.0058
+
+Validation: tpr 97.24, tnr 99.99350096, total pos 181, total neg 7416483, time 4.68
+loss 0.0621, classify loss 0.0496, regress loss 0.0023, 0.0022, 0.0027, 0.0053
+
+
+2019-01-06 12:37:19
+Epoch 144 (lr 0.00010) 
+Train:      tpr 98.64, tnr 98.89, total pos 1767, total neg 10096, time 234.84
+loss 0.0658, classify loss 0.0488, regress loss 0.0039, 0.0034, 0.0040, 0.0058
+
+Validation: tpr 97.24, tnr 99.99292098, total pos 181, total neg 7416286, time 4.57
+loss 0.0532, classify loss 0.0402, regress loss 0.0024, 0.0025, 0.0026, 0.0055
+
+
+2019-01-06 12:41:17
+Epoch 145 (lr 0.00010) 
+Train:      tpr 98.75, tnr 98.93, total pos 1767, total neg 10096, time 233.93
+loss 0.0640, classify loss 0.0471, regress loss 0.0040, 0.0034, 0.0041, 0.0054
+
+Validation: tpr 98.34, tnr 99.99269188, total pos 181, total neg 7416406, time 4.75
+loss 0.0550, classify loss 0.0410, regress loss 0.0029, 0.0025, 0.0030, 0.0055
+
+
+2019-01-06 12:45:17
+Epoch 146 (lr 0.00010) 
+Train:      tpr 98.47, tnr 99.05, total pos 1767, total neg 10096, time 234.83
+loss 0.0649, classify loss 0.0482, regress loss 0.0035, 0.0036, 0.0038, 0.0058
+
+Validation: tpr 99.45, tnr 99.99301482, total pos 181, total neg 7415698, time 4.58
+loss 0.0386, classify loss 0.0252, regress loss 0.0026, 0.0024, 0.0029, 0.0056
+
+
+2019-01-06 12:49:16
+Epoch 147 (lr 0.00010) 
+Train:      tpr 98.02, tnr 98.93, total pos 1767, total neg 10096, time 234.45
+loss 0.0702, classify loss 0.0534, regress loss 0.0038, 0.0034, 0.0040, 0.0056
+
+Validation: tpr 98.34, tnr 99.99111528, total pos 181, total neg 7417226, time 4.70
+loss 0.0488, classify loss 0.0348, regress loss 0.0022, 0.0028, 0.0030, 0.0060
+
+
+2019-01-06 12:53:15
+Epoch 148 (lr 0.00010) 
+Train:      tpr 98.53, tnr 98.80, total pos 1767, total neg 10096, time 234.53
+loss 0.0673, classify loss 0.0505, regress loss 0.0038, 0.0034, 0.0038, 0.0059
+
+Validation: tpr 98.34, tnr 99.99062983, total pos 181, total neg 7417155, time 4.62
+loss 0.0497, classify loss 0.0360, regress loss 0.0027, 0.0023, 0.0030, 0.0056
+
+
+2019-01-06 12:57:14
+Epoch 149 (lr 0.00010) 
+Train:      tpr 98.42, tnr 98.81, total pos 1767, total neg 10096, time 234.01
+loss 0.0699, classify loss 0.0533, regress loss 0.0036, 0.0034, 0.0041, 0.0057
+
+Validation: tpr 98.34, tnr 99.99213850, total pos 181, total neg 7415887, time 4.77
+loss 0.0415, classify loss 0.0282, regress loss 0.0026, 0.0025, 0.0030, 0.0051
+
+
+2019-01-06 13:01:13
+Epoch 150 (lr 0.00010) 
+Train:      tpr 98.19, tnr 98.94, total pos 1767, total neg 10096, time 234.70
+loss 0.0696, classify loss 0.0527, regress loss 0.0039, 0.0033, 0.0039, 0.0057
+
+Validation: tpr 96.69, tnr 99.98917318, total pos 181, total neg 7416768, time 4.74
+loss 0.0679, classify loss 0.0552, regress loss 0.0021, 0.0024, 0.0028, 0.0054
+
+

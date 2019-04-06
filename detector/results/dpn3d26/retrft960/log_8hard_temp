@@ -1,0 +1,61 @@
+using gpu 0
+['/opt/LUNA16/subset0/', '/opt/LUNA16/subset1/', '/opt/LUNA16/subset2/', '/opt/LUNA16/subset3/', '/opt/LUNA16/subset4/', '/opt/LUNA16/subset5/', '/opt/LUNA16/subset6/', '/opt/LUNA16/subset7/', '/opt/LUNA16/subset8/']
+/opt/LUNA16/subset0/
+/opt/LUNA16/subset1/
+/opt/LUNA16/subset2/
+/opt/LUNA16/subset3/
+/opt/LUNA16/subset4/
+/opt/LUNA16/subset5/
+/opt/LUNA16/subset6/
+/opt/LUNA16/subset7/
+/opt/LUNA16/subset8/
+800
+800
+88
+316
+2019-01-09 12:21:02
+Epoch 001 (lr 0.01000) 
+Train:      tpr 97.74, tnr 98.59, total pos 1767, total neg 20192, time 240.20
+loss 0.0874, classify loss 0.0641, regress loss 0.0051, 0.0052, 0.0053, 0.0077
+
+Validation: tpr 98.90, tnr 99.98644935, total pos 181, total neg 7416617, time 4.77
+loss 0.0514, classify loss 0.0291, regress loss 0.0041, 0.0047, 0.0058, 0.0077
+
+
+316
+2019-01-09 12:25:02
+Epoch 002 (lr 0.01000) 
+Train:      tpr 97.85, tnr 98.48, total pos 1767, total neg 20192, time 234.54
+loss 0.0876, classify loss 0.0640, regress loss 0.0045, 0.0054, 0.0058, 0.0078
+
+Validation: tpr 96.13, tnr 99.99262458, total pos 181, total neg 7416525, time 4.36
+loss 0.0764, classify loss 0.0598, regress loss 0.0034, 0.0027, 0.0025, 0.0080
+
+
+using gpu 0
+['/opt/LUNA16/subset0/', '/opt/LUNA16/subset1/', '/opt/LUNA16/subset2/', '/opt/LUNA16/subset3/', '/opt/LUNA16/subset4/', '/opt/LUNA16/subset5/', '/opt/LUNA16/subset6/', '/opt/LUNA16/subset7/', '/opt/LUNA16/subset8/']
+/opt/LUNA16/subset0/
+/opt/LUNA16/subset1/
+/opt/LUNA16/subset2/
+/opt/LUNA16/subset3/
+/opt/LUNA16/subset4/
+/opt/LUNA16/subset5/
+/opt/LUNA16/subset6/
+/opt/LUNA16/subset7/
+/opt/LUNA16/subset8/
+800
+800
+88
+using gpu 0
+['/opt/LUNA16/subset0/', '/opt/LUNA16/subset1/', '/opt/LUNA16/subset2/', '/opt/LUNA16/subset3/', '/opt/LUNA16/subset4/', '/opt/LUNA16/subset5/', '/opt/LUNA16/subset6/', '/opt/LUNA16/subset7/', '/opt/LUNA16/subset8/']
+/opt/LUNA16/subset0/
+/opt/LUNA16/subset1/
+/opt/LUNA16/subset2/
+/opt/LUNA16/subset3/
+/opt/LUNA16/subset4/
+/opt/LUNA16/subset5/
+/opt/LUNA16/subset6/
+/opt/LUNA16/subset7/
+/opt/LUNA16/subset8/
+800
+800

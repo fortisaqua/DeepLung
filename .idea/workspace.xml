@@ -1,0 +1,985 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e3d130c5-42d0-4c4a-b20d-35b294040e18" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepLungDetectionDemo/CT/1.3.6.1.4.1.14519.5.2.1.6279.6001.108231420525711026834210228428_clean.npy" beforeDir="false" afterPath="$PROJECT_DIR$/DeepLungDetectionDemo/CT/1.3.6.1.4.1.14519.5.2.1.6279.6001.108231420525711026834210228428_clean.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepLungDetectionDemo/CT/1.3.6.1.4.1.14519.5.2.1.6279.6001.108231420525711026834210228428_label.npy" beforeDir="false" afterPath="$PROJECT_DIR$/DeepLungDetectionDemo/CT/1.3.6.1.4.1.14519.5.2.1.6279.6001.108231420525711026834210228428_label.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepLungDetectionDemo/CT/1.3.6.1.4.1.14519.5.2.1.6279.6001.161002239822118346732951898613_clean.npy" beforeDir="false" afterPath="$PROJECT_DIR$/DeepLungDetectionDemo/CT/1.3.6.1.4.1.14519.5.2.1.6279.6001.161002239822118346732951898613_clean.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepLungDetectionDemo/CT/1.3.6.1.4.1.14519.5.2.1.6279.6001.161002239822118346732951898613_label.npy" beforeDir="false" afterPath="$PROJECT_DIR$/DeepLungDetectionDemo/CT/1.3.6.1.4.1.14519.5.2.1.6279.6001.161002239822118346732951898613_label.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepLungDetectionDemo/CT/1.3.6.1.4.1.14519.5.2.1.6279.6001.162901839201654862079549658100_clean.npy" beforeDir="false" afterPath="$PROJECT_DIR$/DeepLungDetectionDemo/CT/1.3.6.1.4.1.14519.5.2.1.6279.6001.162901839201654862079549658100_clean.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepLungDetectionDemo/CT/1.3.6.1.4.1.14519.5.2.1.6279.6001.162901839201654862079549658100_label.npy" beforeDir="false" afterPath="$PROJECT_DIR$/DeepLungDetectionDemo/CT/1.3.6.1.4.1.14519.5.2.1.6279.6001.162901839201654862079549658100_label.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepLungDetectionDemo/CT/1.3.6.1.4.1.14519.5.2.1.6279.6001.179162671133894061547290922949_clean.npy" beforeDir="false" afterPath="$PROJECT_DIR$/DeepLungDetectionDemo/CT/1.3.6.1.4.1.14519.5.2.1.6279.6001.179162671133894061547290922949_clean.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepLungDetectionDemo/CT/1.3.6.1.4.1.14519.5.2.1.6279.6001.179162671133894061547290922949_label.npy" beforeDir="false" afterPath="$PROJECT_DIR$/DeepLungDetectionDemo/CT/1.3.6.1.4.1.14519.5.2.1.6279.6001.179162671133894061547290922949_label.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepLungDetectionDemo/CT/1.3.6.1.4.1.14519.5.2.1.6279.6001.208737629504245244513001631764_clean.npy" beforeDir="false" afterPath="$PROJECT_DIR$/DeepLungDetectionDemo/CT/1.3.6.1.4.1.14519.5.2.1.6279.6001.208737629504245244513001631764_clean.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepLungDetectionDemo/CT/1.3.6.1.4.1.14519.5.2.1.6279.6001.208737629504245244513001631764_label.npy" beforeDir="false" afterPath="$PROJECT_DIR$/DeepLungDetectionDemo/CT/1.3.6.1.4.1.14519.5.2.1.6279.6001.208737629504245244513001631764_label.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepLungDetectionDemo/detection/1.3.6.1.4.1.14519.5.2.1.6279.6001.108231420525711026834210228428_lbb.npy" beforeDir="false" afterPath="$PROJECT_DIR$/DeepLungDetectionDemo/detection/1.3.6.1.4.1.14519.5.2.1.6279.6001.108231420525711026834210228428_lbb.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepLungDetectionDemo/detection/1.3.6.1.4.1.14519.5.2.1.6279.6001.108231420525711026834210228428_pbb.npy" beforeDir="false" afterPath="$PROJECT_DIR$/DeepLungDetectionDemo/detection/1.3.6.1.4.1.14519.5.2.1.6279.6001.108231420525711026834210228428_pbb.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepLungDetectionDemo/detection/1.3.6.1.4.1.14519.5.2.1.6279.6001.161002239822118346732951898613_lbb.npy" beforeDir="false" afterPath="$PROJECT_DIR$/DeepLungDetectionDemo/detection/1.3.6.1.4.1.14519.5.2.1.6279.6001.161002239822118346732951898613_lbb.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepLungDetectionDemo/detection/1.3.6.1.4.1.14519.5.2.1.6279.6001.161002239822118346732951898613_pbb.npy" beforeDir="false" afterPath="$PROJECT_DIR$/DeepLungDetectionDemo/detection/1.3.6.1.4.1.14519.5.2.1.6279.6001.161002239822118346732951898613_pbb.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepLungDetectionDemo/detection/1.3.6.1.4.1.14519.5.2.1.6279.6001.162901839201654862079549658100_lbb.npy" beforeDir="false" afterPath="$PROJECT_DIR$/DeepLungDetectionDemo/detection/1.3.6.1.4.1.14519.5.2.1.6279.6001.162901839201654862079549658100_lbb.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepLungDetectionDemo/detection/1.3.6.1.4.1.14519.5.2.1.6279.6001.162901839201654862079549658100_pbb.npy" beforeDir="false" afterPath="$PROJECT_DIR$/DeepLungDetectionDemo/detection/1.3.6.1.4.1.14519.5.2.1.6279.6001.162901839201654862079549658100_pbb.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepLungDetectionDemo/detection/1.3.6.1.4.1.14519.5.2.1.6279.6001.179162671133894061547290922949_lbb.npy" beforeDir="false" afterPath="$PROJECT_DIR$/DeepLungDetectionDemo/detection/1.3.6.1.4.1.14519.5.2.1.6279.6001.179162671133894061547290922949_lbb.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepLungDetectionDemo/detection/1.3.6.1.4.1.14519.5.2.1.6279.6001.179162671133894061547290922949_pbb.npy" beforeDir="false" afterPath="$PROJECT_DIR$/DeepLungDetectionDemo/detection/1.3.6.1.4.1.14519.5.2.1.6279.6001.179162671133894061547290922949_pbb.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepLungDetectionDemo/detection/1.3.6.1.4.1.14519.5.2.1.6279.6001.208737629504245244513001631764_lbb.npy" beforeDir="false" afterPath="$PROJECT_DIR$/DeepLungDetectionDemo/detection/1.3.6.1.4.1.14519.5.2.1.6279.6001.208737629504245244513001631764_lbb.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepLungDetectionDemo/detection/1.3.6.1.4.1.14519.5.2.1.6279.6001.208737629504245244513001631764_pbb.npy" beforeDir="false" afterPath="$PROJECT_DIR$/DeepLungDetectionDemo/detection/1.3.6.1.4.1.14519.5.2.1.6279.6001.208737629504245244513001631764_pbb.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepLungDetectionDemo/detector.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/DeepLungDetectionDemo/detector.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config_training.py" beforeDir="false" afterPath="$PROJECT_DIR$/config_training.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config_training0.py" beforeDir="false" afterPath="$PROJECT_DIR$/config_training0.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/064.ckpt" beforeDir="false" afterPath="$PROJECT_DIR$/detector/064.ckpt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/detector/data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/detect.py" beforeDir="false" afterPath="$PROJECT_DIR$/detector/detect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/dpn3d26.py" beforeDir="false" afterPath="$PROJECT_DIR$/detector/dpn3d26.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/dpnmodel/fd0066.ckpt" beforeDir="false" afterPath="$PROJECT_DIR$/detector/dpnmodel/fd0066.ckpt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/dpnmodel/fd1022.ckpt" beforeDir="false" afterPath="$PROJECT_DIR$/detector/dpnmodel/fd1022.ckpt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/dpnmodel/fd2093.ckpt" beforeDir="false" afterPath="$PROJECT_DIR$/detector/dpnmodel/fd2093.ckpt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/dpnmodel/fd3044.ckpt" beforeDir="false" afterPath="$PROJECT_DIR$/detector/dpnmodel/fd3044.ckpt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/dpnmodel/fd4007.ckpt" beforeDir="false" afterPath="$PROJECT_DIR$/detector/dpnmodel/fd4007.ckpt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/dpnmodel/fd5076.ckpt" beforeDir="false" afterPath="$PROJECT_DIR$/detector/dpnmodel/fd5076.ckpt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/dpnmodel/fd6083.ckpt" beforeDir="false" afterPath="$PROJECT_DIR$/detector/dpnmodel/fd6083.ckpt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/dpnmodel/fd7072.ckpt" beforeDir="false" afterPath="$PROJECT_DIR$/detector/dpnmodel/fd7072.ckpt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/dpnmodel/fd8004.ckpt" beforeDir="false" afterPath="$PROJECT_DIR$/detector/dpnmodel/fd8004.ckpt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/dpnmodel/fd9044.ckpt" beforeDir="false" afterPath="$PROJECT_DIR$/detector/dpnmodel/fd9044.ckpt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/layers.py" beforeDir="false" afterPath="$PROJECT_DIR$/detector/layers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/detector/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/res18.py" beforeDir="false" afterPath="$PROJECT_DIR$/detector/res18.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/res_pool.py" beforeDir="false" afterPath="$PROJECT_DIR$/detector/res_pool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/resmodel/res18fd0008.ckpt" beforeDir="false" afterPath="$PROJECT_DIR$/detector/resmodel/res18fd0008.ckpt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/resmodel/res18fd1049.ckpt" beforeDir="false" afterPath="$PROJECT_DIR$/detector/resmodel/res18fd1049.ckpt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/resmodel/res18fd2020.ckpt" beforeDir="false" afterPath="$PROJECT_DIR$/detector/resmodel/res18fd2020.ckpt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/resmodel/res18fd3006.ckpt" beforeDir="false" afterPath="$PROJECT_DIR$/detector/resmodel/res18fd3006.ckpt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/resmodel/res18fd4143.ckpt" beforeDir="false" afterPath="$PROJECT_DIR$/detector/resmodel/res18fd4143.ckpt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/resmodel/res18fd5097.ckpt" beforeDir="false" afterPath="$PROJECT_DIR$/detector/resmodel/res18fd5097.ckpt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/resmodel/res18fd6028.ckpt" beforeDir="false" afterPath="$PROJECT_DIR$/detector/resmodel/res18fd6028.ckpt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/resmodel/res18fd7024.ckpt" beforeDir="false" afterPath="$PROJECT_DIR$/detector/resmodel/res18fd7024.ckpt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/resmodel/res18fd8014.ckpt" beforeDir="false" afterPath="$PROJECT_DIR$/detector/resmodel/res18fd8014.ckpt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/resmodel/res18fd9020.ckpt" beforeDir="false" afterPath="$PROJECT_DIR$/detector/resmodel/res18fd9020.ckpt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/split_combine.py" beforeDir="false" afterPath="$PROJECT_DIR$/detector/split_combine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/test.npy" beforeDir="false" afterPath="$PROJECT_DIR$/detector/test.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detector/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/detector/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evaluationScript/NoduleFinding.py" beforeDir="false" afterPath="$PROJECT_DIR$/evaluationScript/NoduleFinding.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evaluationScript/annotations/3DRes18FasterR-CNN.csv" beforeDir="false" afterPath="$PROJECT_DIR$/evaluationScript/annotations/3DRes18FasterR-CNN.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evaluationScript/annotations/annotations.csv" beforeDir="false" afterPath="$PROJECT_DIR$/evaluationScript/annotations/annotations.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evaluationScript/annotations/annotations_excluded.csv" beforeDir="false" afterPath="$PROJECT_DIR$/evaluationScript/annotations/annotations_excluded.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evaluationScript/annotations/dpn26bs32.csv" beforeDir="false" afterPath="$PROJECT_DIR$/evaluationScript/annotations/dpn26bs32.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evaluationScript/annotations/newannotations.csv" beforeDir="false" afterPath="$PROJECT_DIR$/evaluationScript/annotations/newannotations.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evaluationScript/annotations/newannotations_excluded.csv" beforeDir="false" afterPath="$PROJECT_DIR$/evaluationScript/annotations/newannotations_excluded.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evaluationScript/annotations/newseriesuids.csv" beforeDir="false" afterPath="$PROJECT_DIR$/evaluationScript/annotations/newseriesuids.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evaluationScript/annotations/seriesuids.csv" beforeDir="false" afterPath="$PROJECT_DIR$/evaluationScript/annotations/seriesuids.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evaluationScript/frocwrtdetpepchluna16.py" beforeDir="false" afterPath="$PROJECT_DIR$/evaluationScript/frocwrtdetpepchluna16.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evaluationScript/noduleCADEvaluationLUNA16.py" beforeDir="false" afterPath="$PROJECT_DIR$/evaluationScript/noduleCADEvaluationLUNA16.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evaluationScript/noduleCADEvaluationLUNA16compare.py" beforeDir="false" afterPath="$PROJECT_DIR$/evaluationScript/noduleCADEvaluationLUNA16compare.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evaluationScript/readme" beforeDir="false" afterPath="$PROJECT_DIR$/evaluationScript/readme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evaluationScript/tools/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/evaluationScript/tools/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evaluationScript/tools/csvTools.py" beforeDir="false" afterPath="$PROJECT_DIR$/evaluationScript/tools/csvTools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodcls/annotationdetclssgm_doctor.csv" beforeDir="false" afterPath="$PROJECT_DIR$/nodcls/annotationdetclssgm_doctor.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodcls/data/LIDC-IDRI-mappingLUNA16" beforeDir="false" afterPath="$PROJECT_DIR$/nodcls/data/LIDC-IDRI-mappingLUNA16" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodcls/data/annotationdetclsconvfnl_v3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/nodcls/data/annotationdetclsconvfnl_v3.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodcls/data/dataconverter.py" beforeDir="false" afterPath="$PROJECT_DIR$/nodcls/data/dataconverter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodcls/data/dimcls.py" beforeDir="false" afterPath="$PROJECT_DIR$/nodcls/data/dimcls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodcls/data/extclsshpinfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/nodcls/data/extclsshpinfo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodcls/data/humanperformance.py" beforeDir="false" afterPath="$PROJECT_DIR$/nodcls/data/humanperformance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodcls/data/kappatest.py" beforeDir="false" afterPath="$PROJECT_DIR$/nodcls/data/kappatest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodcls/data/list3.2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/nodcls/data/list3.2.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodcls/data/nodclsgbt.py" beforeDir="false" afterPath="$PROJECT_DIR$/nodcls/data/nodclsgbt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodcls/data/pthumanperformance.py" beforeDir="false" afterPath="$PROJECT_DIR$/nodcls/data/pthumanperformance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodcls/dataloader.py" beforeDir="false" afterPath="$PROJECT_DIR$/nodcls/dataloader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodcls/dataloadernp.py" beforeDir="false" afterPath="$PROJECT_DIR$/nodcls/dataloadernp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodcls/det2cls.py" beforeDir="false" afterPath="$PROJECT_DIR$/nodcls/det2cls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodcls/main_nodcls.py" beforeDir="false" afterPath="$PROJECT_DIR$/nodcls/main_nodcls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodcls/models/dpn3d.py" beforeDir="false" afterPath="$PROJECT_DIR$/nodcls/models/dpn3d.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodcls/testdet2cls.py" beforeDir="false" afterPath="$PROJECT_DIR$/nodcls/testdet2cls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodcls/transforms.py" beforeDir="false" afterPath="$PROJECT_DIR$/nodcls/transforms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodcls/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/nodcls/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepare.py" beforeDir="false" afterPath="$PROJECT_DIR$/prepare.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_training.sh" beforeDir="false" afterPath="$PROJECT_DIR$/run_training.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wacv18_final.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/wacv18_final.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wacv18_supplyment.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/wacv18_supplyment.pdf" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/DeepLung$visualizeDetection.coverage" NAME="visualizeDetection Coverage Results" MODIFIED="1546772241442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DeepLung$res18.coverage" NAME="res18 Coverage Results" MODIFIED="1545301906324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/detector" />
+    <SUITE FILE_PATH="coverage/DeepLung$dpn3d26.coverage" NAME="dpn3d26 Coverage Results" MODIFIED="1546671700246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/detector" />
+    <SUITE FILE_PATH="coverage/DeepLung$prepare.coverage" NAME="prepare Coverage Results" MODIFIED="1545621880946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DeepLung$main.coverage" NAME="main Coverage Results" MODIFIED="1547009493753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/detector" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/detector/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3600">
+              <caret line="248" column="56" selection-start-line="248" selection-start-column="56" selection-end-line="248" selection-end-column="56" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/detector/split_combine.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1380">
+              <caret line="93" column="22" selection-start-line="93" selection-start-column="22" selection-end-line="93" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/detector/layers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1170">
+              <caret line="222" selection-start-line="222" selection-end-line="222" />
+              <folding>
+                <element signature="e#99#1072#0" />
+                <element signature="e#1108#2079#0" />
+                <element signature="e#2108#5354#0" />
+                <element signature="e#5411#5623#0" />
+                <element signature="e#9576#10041#0" />
+                <element signature="e#10073#10494#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/detector/utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8580">
+              <caret line="576" column="6" selection-start-line="576" selection-start-column="6" selection-end-line="576" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/visualizeDetection.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1365">
+              <caret line="93" selection-start-line="93" selection-end-line="93" />
+              <folding>
+                <element signature="e#0#17#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/detector/results/dpn3d26/retrft960/log_8hard_150">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/lib/python2.7/dist-packages/numpy/lib/npyio.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4770">
+              <caret line="342" column="28" selection-start-line="342" selection-start-column="28" selection-end-line="342" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/detector/data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="70" column="31" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#6277#8313#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/lib/python2.7/dist-packages/torch/utils/data/dataset.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/detector/dpn3d26.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2130">
+              <caret line="146" column="38" selection-start-line="146" selection-start-column="38" selection-end-line="146" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>workers</find>
+      <find>results</find>
+      <find>config['augtype'] = {'flip':True,'swap':False,'scale':True,'rotate':False}</find>
+      <find>out_planes</find>
+      <find>num_blocks</find>
+      <find>dense_depth</find>
+      <find>model</find>
+      <find>save_dir</find>
+      <find>save-dir</find>
+      <find>res18</find>
+      <find>dpn3d26</find>
+      <find>optimizer</find>
+      <find>LabelMapping</find>
+      <find>'num_neg'</find>
+      <find>Databow</find>
+      <find>num_neg</find>
+      <find>SplitComb</find>
+      <find>resume</find>
+      <find>tpr</find>
+      <find>box[3]</find>
+      <find>log_</find>
+      <find>testthresh</find>
+      <find>testthresh`</find>
+      <find>mask</find>
+      <find>out_1</find>
+      <find>5]</find>
+      <find>3]</find>
+      <find>figure</find>
+      <find>log</find>
+      <find>r_rand_crop</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$USER_HOME$/.PyCharm2018.3/system/python_stubs</dir>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/config_training9.py" />
+        <option value="$PROJECT_DIR$/config_training.py" />
+        <option value="$PROJECT_DIR$/detector/layers.py" />
+        <option value="$PROJECT_DIR$/detector/split_combine.py" />
+        <option value="$PROJECT_DIR$/prepare.py" />
+        <option value="$PROJECT_DIR$/runTraining.sh" />
+        <option value="$PROJECT_DIR$/nodcls/models/__init__.py" />
+        <option value="$PROJECT_DIR$/nodcls/det2cls.py" />
+        <option value="$PROJECT_DIR$/nodcls/utils.py" />
+        <option value="$PROJECT_DIR$/nodcls/data/extclsshpinfo.py" />
+        <option value="$PROJECT_DIR$/config_training0.py" />
+        <option value="$PROJECT_DIR$/detector/res18.py" />
+        <option value="$PROJECT_DIR$/run_training.sh" />
+        <option value="$PROJECT_DIR$/detector/results/dpn3d26/retrft960/log_4hard" />
+        <option value="$PROJECT_DIR$/detector/dpn3d26.py" />
+        <option value="$PROJECT_DIR$/visualizeDetection.py" />
+        <option value="$PROJECT_DIR$/detector/main.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="151" />
+    <option name="y" value="44" />
+    <option name="width" value="1390" />
+    <option name="height" value="979" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DeepLung" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeepLung" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeepLung" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeepLung" type="462c0819:PsiDirectoryNode" />
+              <item name="detector" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeepLung" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeepLung" type="462c0819:PsiDirectoryNode" />
+              <item name="detector" type="462c0819:PsiDirectoryNode" />
+              <item name="results" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeepLung" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeepLung" type="462c0819:PsiDirectoryNode" />
+              <item name="detector" type="462c0819:PsiDirectoryNode" />
+              <item name="results" type="462c0819:PsiDirectoryNode" />
+              <item name="dpn3d26" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeepLung" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/nodcls/models" />
+      <recent name="$PROJECT_DIR$/nodcls" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="DeepLung" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dpn3d26" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DeepLung" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/detector" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/detector/dpn3d26.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DeepLung" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/detector" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/detector/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="prepare" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DeepLung" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prepare.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="visualizeDetection" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DeepLung" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/visualizeDetection.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.visualizeDetection" />
+        <item itemvalue="Python.dpn3d26" />
+        <item itemvalue="Python.prepare" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e3d130c5-42d0-4c4a-b20d-35b294040e18" name="Default Changelist" comment="" />
+      <created>1545280001640</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545280001640</updated>
+      <workItem from="1545280003022" duration="5157000" />
+      <workItem from="1545294482792" duration="10447000" />
+      <workItem from="1545318751247" duration="6712000" />
+      <workItem from="1545357231317" duration="30786000" />
+      <workItem from="1545442238059" duration="3552000" />
+      <workItem from="1545450854741" duration="16407000" />
+      <workItem from="1545617076342" duration="14681000" />
+      <workItem from="1546564376004" duration="28000" />
+      <workItem from="1546564460323" duration="20497000" />
+      <workItem from="1546650628482" duration="27461000" />
+      <workItem from="1546738628045" duration="15587000" />
+      <workItem from="1547007115710" duration="3291000" />
+      <workItem from="1553767188449" duration="239000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="154845000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="26" width="1920" height="1021" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916527" visible="true" weight="0.19903949" />
+      <window_info id="Structure" order="1" sideWeight="0.5008347" side_tool="true" weight="0.178762" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49839914" weight="0.40425533" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49893278" weight="0.4580067" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010672" side_tool="true" weight="0.4087346" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4994664" weight="0.33706608" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.48712206" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32924226" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32977587" />
+      <window_info anchor="right" x="0" y="0" width="430" height="821" id="Documentation" order="5" side_tool="true" weight="0.24866596" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/prepare.py</url>
+          <line>517</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/prepare.py</url>
+          <line>490</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/prepare.py</url>
+          <line>513</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/detector/main.py</url>
+          <line>202</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/detector/main.py</url>
+          <line>164</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/detector/main.py</url>
+          <line>152</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/torch/nn/modules/module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="1001" column="8" selection-start-line="1001" selection-start-column="8" selection-end-line="1001" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-1247972723/torch/__init__.py" />
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/torch/serialization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5087">
+          <caret line="376" selection-start-line="376" selection-end-line="376" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38302">
+          <caret line="1741" selection-start-line="1741" selection-end-line="1741" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-1247972723/pandas/_libs/tslibs/timedeltas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4092">
+          <caret line="194" column="8" selection-start-line="194" selection-start-column="8" selection-end-line="194" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-1247972723/_functools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluationScript/annotations/newannotations.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LUNA16/CSVFILES/annotations.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluationScript/annotations/annotations.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="1186" column="7" lean-forward="true" selection-start-line="1186" selection-start-column="7" selection-end-line="1186" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config_training9.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeepLungDetectionDemo/detector.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prepare.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12012">
+          <caret line="567" column="15" selection-start-line="567" selection-start-column="15" selection-end-line="567" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodcls/dataloader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1584">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodcls/dataloadernp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1056">
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodcls/models/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodcls/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodcls/main_nodcls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1342">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodcls/testdet2cls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1628">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodcls/data/annotationdetclsconvfnl_v3.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodcls/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding>
+            <element signature="e#222#231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="154">
+            <caret line="7" selection-start-line="7" selection-end-line="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodcls/data/extclsshpinfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodcls/data/LIDC-IDRI-mappingLUNA16">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodcls/annotationdetclssgm_doctor.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-168">
+          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/torch/utils/data/dataloader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="285" column="8" selection-start-line="285" selection-start-column="8" selection-end-line="285" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodcls/det2cls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="375" column="33" selection-start-line="375" selection-start-column="33" selection-end-line="375" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detector/detect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="59" column="21" lean-forward="true" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodcls/models/dpn3d.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="e#37#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/torch/optim/sgd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detector/res_pool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="98" column="106" lean-forward="true" selection-start-line="98" selection-start-column="106" selection-end-line="98" selection-end-column="106" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detector/results/res18/retrft960/log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_training.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/torch/nn/functional.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="95" column="88" lean-forward="true" selection-start-line="95" selection-start-column="88" selection-end-line="95" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annotations.csv">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config_training0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detector/res18.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detector/results/dpn3d26/retrft960/log_4hard">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="688">
+          <caret line="958" lean-forward="true" selection-start-line="958" selection-end-line="958" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detector/results/dpn3d26/retrft960/log_4hard_100">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detector/results/dpn3d26/retrft960/log_4hard_1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runTraining.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="55" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detector/testlog.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3256">
+          <caret line="148" column="70" selection-start-line="148" selection-start-column="40" selection-end-line="148" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detector/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3600">
+          <caret line="248" column="56" selection-start-line="248" selection-start-column="56" selection-end-line="248" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detector/split_combine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="93" column="22" selection-start-line="93" selection-start-column="22" selection-end-line="93" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detector/layers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="222" selection-start-line="222" selection-end-line="222" />
+          <folding>
+            <element signature="e#99#1072#0" />
+            <element signature="e#1108#2079#0" />
+            <element signature="e#2108#5354#0" />
+            <element signature="e#5411#5623#0" />
+            <element signature="e#9576#10041#0" />
+            <element signature="e#10073#10494#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detector/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8580">
+          <caret line="576" column="6" selection-start-line="576" selection-start-column="6" selection-end-line="576" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visualizeDetection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1365">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detector/results/dpn3d26/retrft960/log_8hard_150">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/numpy/lib/npyio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4770">
+          <caret line="342" column="28" selection-start-line="342" selection-start-column="28" selection-end-line="342" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/torch/utils/data/dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detector/dpn3d26.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2130">
+          <caret line="146" column="38" selection-start-line="146" selection-start-column="38" selection-end-line="146" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detector/data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="70" column="31" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#6277#8313#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
